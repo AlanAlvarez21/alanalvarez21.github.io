@@ -124,7 +124,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: monospace;
 		font-size: 16.5pt;
 		font-weight: 300;
 		line-height: 1.65;
@@ -189,7 +189,7 @@ input, select, textarea {
 			text-decoration: none;
 			border-bottom: 0;
 			display: block;
-			font-family: Raleway, Helvetica, sans-serif;
+			font-family: monospace;
 			font-size: 0.8em;
 			font-weight: 700;
 			letter-spacing: 0.1em;
@@ -248,11 +248,13 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		font-family: monospace;
+
 	}
 
 	h1, h2, h3,h5, h6 {
 		color: #ffffff;
-		font-family: Raleway, Helvetica, sans-serif;
+		font-family: monospace;
 		font-weight: 700;
 		letter-spacing: 0.1em;
 		margin: 0 0 1em 0;
@@ -261,7 +263,7 @@ input, select, textarea {
 
 	h4 {
 		color: #ffffff;
-		font-family: Raleway, Helvetica, sans-serif;
+		font-family: monospace;
 		font-weight: 700;
 		letter-spacing: 0.1em;
 		margin: 0 0 1em 0;
@@ -337,7 +339,7 @@ input, select, textarea {
 		background: rgba(255, 255, 255, 0.025);
 		border-radius: 5px;
 		border: solid 2px rgba(255, 255, 255, 0.125);
-		font-family: "Courier New", monospace;
+		font-family: monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
@@ -345,7 +347,7 @@ input, select, textarea {
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
+		font-family: monospace;
 		font-size: 0.9em;
 		margin: 0 0 2em 0;
 	}
@@ -2175,7 +2177,7 @@ input, select, textarea {
 	label {
 		color: #ffffff;
 		display: block;
-		font-family: Raleway, Helvetica, sans-serif;
+		font-family: monospace;
 		font-size: 0.8em;
 		font-weight: 700;
 		letter-spacing: 0.1em;
@@ -2278,7 +2280,7 @@ input, select, textarea {
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: monospace;
 			text-transform: none;
 			letter-spacing: 0;
 			font-weight: 300;
@@ -2297,7 +2299,7 @@ input, select, textarea {
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
+				font-family: monospace;
 				font-weight: 900;
 			}
 
@@ -2879,7 +2881,7 @@ input, select, textarea {
 		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
-		font-family: Raleway, Helvetica, sans-serif;
+		font-family: monospace;
 		font-size: 0.8em;
 		font-weight: 700;
 		height: 3.75em;
@@ -3113,7 +3115,7 @@ input, select, textarea {
 			}
 
 		#header nav {
-			font-family: Raleway, Helvetica, sans-serif;
+			font-family: monospace;
 			font-size: 0.8em;
 			font-weight: 700;
 			height: 3em;
@@ -3336,7 +3338,7 @@ input, select, textarea {
 					border-radius: 5px;
 					border: 0;
 					display: block;
-					font-family: Raleway, Helvetica, sans-serif;
+					font-family: monospace;
 					font-size: 0.8em;
 					font-weight: 200;
 					letter-spacing: 0.1em;
@@ -3462,7 +3464,7 @@ input, select, textarea {
 			-ms-filter: blur(0);
 			filter: blur(0);
 			opacity: 1;
-			font-family: Raleway, Helvetica, sans-serif;
+			font-family: monospace;
 			font-size: 1em;
 			font-weight: 200;
 			letter-spacing: 0.1em;
@@ -3574,7 +3576,7 @@ input, select, textarea {
 		}
 
 		#wrapper > header p {
-			font-family: Raleway, Helvetica, sans-serif;
+			font-family: monospace;
 			font-size: 1em;
 			font-weight: 200;
 			letter-spacing: 0.1em;
@@ -4213,3 +4215,24 @@ input, select, textarea {
       opacity: 0;
     }
   }
+
+  /* Estilos para el contenedor */
+.contenedor {
+    display: flex;
+    justify-content: space-between; /* Distribuir las columnas uniformemente */
+}
+
+Estilos para cada columna
+.columna {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Estilos para cada elemento dentro de las columnas */
+.elemento {
+	font-family: monospace;
+    margin-bottom: 10px; /* Espaciado entre elementos */
+    background-color: transparent; /* Color de fondo para resaltar los elementos */
+    padding: 5px;
+}
