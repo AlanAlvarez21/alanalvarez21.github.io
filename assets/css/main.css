@@ -227,6 +227,7 @@ input, select, textarea {
 				text-indent: 0.15em;
 				vertical-align: middle;
 				width: 2em;
+				transform: rotate(-90deg);
 			}
 
 			a.special:not(.button):hover:before {
