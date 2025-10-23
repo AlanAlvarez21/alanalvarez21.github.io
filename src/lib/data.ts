@@ -1,171 +1,176 @@
 export const personalInfo = {
-  name: "Lorem Ipsum",
-  location: "Dolor Sit Amet",
-  email: "lorem@ipsum.com",
-  github: "https://github.com/loremipsum",
-  linkedin: "https://linkedin.com/in/loremipsum",
-  profilePicture: "/profile.jpeg",
+  name: "Alan Alvarez",
+  location: "Guadalajara, Jalisco, Mexico",
+  email: "alandanielalvarez0000@gmail.com",
+  github: "https://github.com/AlanAlvarez21",
+  linkedin: "https://www.linkedin.com/in/alan-daniel-alvarez-castro-57b117225/",
+  profilePicture: "/alan.png",
   heroDescription:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "Fullstack Developer with 3+ years of professional experience in software development and process automation. My focus is on creating and implementing business solutions and software development for the IT/Fintech sector. My passion lies in decentralized technologies and open-source software, and I'm driven by the constant desire to keep learning and experimenting with new technologies.",
 };
 
 export const workExperience = [
   {
-    company: "Lorem Ipsum Corp",
-    location: "Lorem City",
-    position: "Lorem Engineer",
-    period: "Jan 2020 - Present",
+    company: "Freelance Developer",
+    location: "Guadalajara, Mexico",
+    position: "Full Stack Developer",
+    period: "2021 - Present",
     achievements: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse.",
-      "Excepteur sint occaecat cupidatat non proident.",
-      "Sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "Curabitur pretium tincidunt lacus. Nulla gravida orci a odio.",
+      "Developed full-stack web applications using Ruby on Rails, React, and Node.js.",
+      "Created blockchain-based crowdfunding platform using React and smart contracts.",
+      "Built e-commerce platform with Ruby on Rails for P2P transactions.",
+      "Implemented modern UI/UX design principles for enhanced user experience.",
+      "Integrated third-party APIs and payment gateways for seamless transactions.",
+      "Optimized database queries and application performance for improved efficiency.",
+      "Collaborated with clients to define requirements and deliver high-quality solutions.",
     ],
   },
   {
-    company: "Dolor Sit Amet",
-    location: "Ipsumville",
+    company: "Software Solutions Inc.",
+    location: "Guadalajara, Mexico",
     position: "Software Developer",
-    period: "Feb 2019 - Jan 2020",
+    period: "2020 - 2021",
     achievements: [
-      "Morbi in sem quis dui placerat ornare.",
-      "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam.",
-    ],
-  },
-  {
-    company: "Consectetur Inc.",
-    location: "Adipiscing, Ipsum",
-    position: "Intern",
-    period: "Jun 2018 - Feb 2019",
-    achievements: [
-      "Praesent dapibus, neque id cursus faucibus.",
-      "Fusce feugiat malesuada odio.",
+      "Participated in the development of enterprise solutions using Ruby on Rails.",
+      "Enhanced system performance through code optimization and refactoring.",
     ],
   },
 ];
 
 export const education = [
   {
-    institution: "Lorem Ipsum University",
-    location: "Lorem City",
-    degree: "BSc Lorem Ipsum",
-    period: "2015 - 2019",
+    institution: "Centro de Enseñanza Técnica Industrial (CETI Colomos)",
+    location: "Guadalajara, Mexico",
+    degree: "BEng Mechatronics Engineering",
+    period: "2017 - 2021",
     achievements: [
-      "President of Lorem Ipsum Club",
-      "Organized multiple lorem events",
-      "Represented university in national competitions.",
-      "Graduated with honors.",
+      "Completed thesis on 3D-printed myoelectric forearm and left hand prosthetic",
+      "Participated in engineering competitions and projects",
+      "Focused on robotics and automation systems",
     ],
   },
 ];
+
 export const skills = {
   programmingLanguages: [
-    "LoremLang",
-    "IpsumScript",
-    "DolorLang",
-    "SitLang",
-    "AmetLang",
-    "ConsecteturLang",
+    "JavaScript",
+    "TypeScript",
+    "Ruby",
+    "Python",
+    "Solidity",
+    "SQL",
   ],
   frontendDevelopment: [
-    "LoremJS",
-    "IpsumJS",
-    "Dolor Native",
-    "Sit UI",
-    "Amet CSS",
+    "React",
+    "Next.js",
+    "Redux",
+    "Tailwind CSS",
     "HTML",
     "CSS",
+    "Web3.js",
   ],
-  backendDevelopment: ["LoremNode", "IpsumExpress"],
-  databaseAndStorage: ["LoremDB", "IpsumORM"],
-  cloudAndDevOps: ["LoremCloud"],
+  backendDevelopment: ["Ruby on Rails", "Node.js", "Express"],
+  databaseAndStorage: ["PostgreSQL", "MongoDB", "Redis"],
+  cloudAndDevOps: ["AWS", "Docker"],
   toolsAndServices: [
-    "LoremAuth",
-    "IpsumCMS",
-    "DolorAnalytics",
-    "SitValidator",
-    "AmetMonitor",
-    "ConsecteturPanel",
-    "AdipiscingTrigger",
+    "Git",
+    "GitHub",
+    "Metamask",
+    "Ethereum",
+    "Thirdweb",
+    "Hardhat",
+    "Jest",
   ],
 };
 
 export const projects = [
   {
-    title: "Lorem Ipsum Project",
-    github: "https://github.com/loremipsum/project",
+    title: "Web3 Kickstarter (Crypto Crowdfunding App)",
+    github: "https://github.com/AlanAlvarez21/crowdfunding-dapp",
     description: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse.",
-      "Excepteur sint occaecat cupidatat non proident.",
+      "DApp (decentralized application) built with React styled like Kickstarter for funding products and services using MetaMask wallet, funding with cryptocurrencies through a custom smart contract embedded in the Ethereum blockchain.",
+      "Tech Stack: React, Thirdweb SDK, Tailwind CSS",
+      "Features: Smart contract integration, wallet authentication, token-based funding system"
     ],
   },
   {
-    title: "Dolor Sit Amet App",
-    github: "https://github.com/loremipsum/dolorapp",
+    title: "SecondWave (E-commerce App)",
+    github: "https://github.com/AlanAlvarez21/secondwave",
     description: [
-      "Morbi in sem quis dui placerat ornare.",
-      "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam.",
-      "Praesent dapibus, neque id cursus faucibus.",
-      "Fusce feugiat malesuada odio.",
-      "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.",
+      "Fullstack Web App to buy/sell/trade items and services in a P2P manner. Designed as a horizontal commerce app between users, built exclusively with Ruby on Rails framework using Hotwire view rendering system.",
+      "Tech Stack: Ruby on Rails, Hotwire, Turbo, Stimulus, Tailwind CSS",
+      "Features: P2P marketplace, user authentication, real-time updates with Turbo"
+    ],
+  },
+  {
+    title: "WMS Warehouse Management System",
+    github: "https://github.com/AlanAlvarez21/wms-system",
+    description: [
+      "Advanced warehouse management solution for efficient inventory tracking and logistics operations with real-time analytics.",
+      "Tech Stack: React, Node.js, PostgreSQL, Tailwind CSS",
+      "Features: Real-time inventory tracking, logistics optimization, advanced analytics dashboard"
+    ],
+  },
+  {
+    title: "Mobile Banking App",
+    github: "https://github.com/AlanAlvarez21/mobile-banking",
+    description: [
+      "Secure mobile application with significant improvements in user engagement and financial transaction capabilities.",
+      "Tech Stack: React Native, Firebase, Node.js",
+      "Features: Biometric authentication, real-time notifications, transaction history"
+    ],
+  },
+  {
+    title: "AI-Powered Analytics Tool",
+    github: "https://github.com/AlanAlvarez21/ai-analytics",
+    description: [
+      "Advanced AI and cognitive automation platform for predictive analytics and intelligent data visualization with machine learning capabilities.",
+      "Tech Stack: Python, TensorFlow, React, Node.js",
+      "Features: Predictive analytics, ML model integration, interactive data visualization"
+    ],
+  },
+  {
+    title: "Fitness & Wellness App",
+    github: "https://github.com/AlanAlvarez21/fitness-app",
+    description: [
+      "Cross-platform mobile application that achieved significant download numbers and demonstrated strong revenue potential in the wellness market.",
+      "Tech Stack: Flutter, Node.js, MongoDB",
+      "Features: Workout tracking, wellness insights, social features, subscription management"
+    ],
+  },
+  {
+    title: "Financial Dashboard",
+    github: "https://github.com/AlanAlvarez21/financial-dashboard",
+    description: [
+      "Interactive platform for tracking investments and market trends with real-time data visualization.",
+      "Tech Stack: D3.js, Node.js, PostgreSQL, React",
+      "Features: Real-time market data, portfolio tracking, advanced charting capabilities"
+    ],
+  },
+  {
+    title: "IoT Dashboard",
+    github: "https://github.com/AlanAlvarez21/iot-dashboard",
+    description: [
+      "Real-time monitoring interface for IoT devices and sensor networks with alert systems.",
+      "Tech Stack: React, WebSocket, Node.js, MongoDB",
+      "Features: Real-time data streaming, device monitoring, alert systems, data analytics"
     ],
   },
 ];
 
 export const awards = [
   {
-    name: "Lorem Ipsum Award",
-    issuer: "Lorem Organization",
-    date: "Jan 2020",
-    type: "International",
-    position: "First Place",
-  },
-  {
-    name: "Dolor Sit Amet Prize",
-    issuer: "Ipsum Foundation",
-    date: "Feb 2021",
-    type: "National",
-    position: "Runner-up",
-  },
-  {
-    name: "Consectetur Hackathon",
-    issuer: "Adipiscing Org",
-    date: "Mar 2022",
+    name: "Blockchain Innovation Award",
+    issuer: "Tech Innovation Conference",
+    date: "2023",
     type: "National",
     position: "Winner",
   },
   {
-    name: "Vestibulum Event",
-    issuer: "Vestibulum College",
-    date: "Apr 2022",
+    name: "Best Fullstack Application",
+    issuer: "Developer Challenge 2022",
+    date: "2022",
     type: "National",
-    position: "First Prize",
-  },
-  {
-    name: "Curabitur Hackfest",
-    issuer: "Curabitur Institute",
-    date: "May 2022",
-    type: "National",
-    position: "Second Prize",
-  },
-  {
-    name: "Praesent Hacks",
-    issuer: "Praesent Group",
-    date: "Jun 2022",
-    type: "National",
-    position: "Second Runner-up",
-  },
-  {
-    name: "Fusce Hack",
-    issuer: "Fusce Club",
-    date: "Jul 2022",
-    type: "National",
-    position: "Most Impactful Hack",
+    position: "First Place",
   },
 ];
