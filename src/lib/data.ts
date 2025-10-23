@@ -134,28 +134,6 @@ export const skills = {
 
 export const projects = [
   {
-    title: "Web3 Kickstarter (Crypto Crowdfunding App)",
-    github: "https://github.com/AlanAlvarez21/crowdfunding-dapp",
-    demo: "https://crowdfunding-dapp.vercel.app/",
-    image: "/images/daap.png", // Using an existing image from the project
-    description: [
-      "DApp (decentralized application) built with React styled like Kickstarter for funding products and services using MetaMask wallet, funding with cryptocurrencies through a custom smart contract embedded in the Ethereum blockchain.",
-      "Tech Stack: React, Thirdweb SDK, Tailwind CSS",
-      "Features: Smart contract integration, wallet authentication, token-based funding system"
-    ],
-  },
-  {
-    title: "SecondWave (E-commerce App)",
-    github: "https://github.com/AlanAlvarez21/secondwave",
-    demo: "https://secondwave.vercel.app/", // Placeholder - actual demo URL if available
-    image: "/images/mp.png", // Using an existing image from the project
-    description: [
-      "Fullstack Web App to buy/sell/trade items and services in a P2P manner. Designed as a horizontal commerce app between users, built exclusively with Ruby on Rails framework using Hotwire view rendering system.",
-      "Tech Stack: Ruby on Rails, Hotwire, Turbo, Stimulus, Tailwind CSS",
-      "Features: P2P marketplace, user authentication, real-time updates with Turbo"
-    ],
-  },
-  {
     title: "WMS Warehouse Management System",
     github: "https://github.com/AlanAlvarez21/wms-system",
     demo: "https://wmsys.fly.dev/",
@@ -219,6 +197,28 @@ export const projects = [
       "Real-time monitoring interface for IoT devices and sensor networks with alert systems.",
       "Tech Stack: React, WebSocket, Node.js, MongoDB",
       "Features: Real-time data streaming, device monitoring, alert systems, data analytics"
+    ],
+  },
+  {
+    title: "Web3 Kickstarter (Crypto Crowdfunding App)",
+    github: "https://github.com/AlanAlvarez21/crowdfunding-dapp",
+    demo: "https://crowdfunding-dapp.vercel.app/",
+    image: "/daap.png", // Using existing image from the project
+    description: [
+      "DApp (decentralized application) built with React styled like Kickstarter for funding products and services using MetaMask wallet, funding with cryptocurrencies through a custom smart contract embedded in the Ethereum blockchain.",
+      "Tech Stack: React, Thirdweb SDK, Tailwind CSS",
+      "Features: Smart contract integration, wallet authentication, token-based funding system"
+    ],
+  },
+  {
+    title: "SecondWave (E-commerce App)",
+    github: "https://github.com/AlanAlvarez21/secondwave",
+    demo: "https://secondwave.vercel.app/", // Placeholder - actual demo URL if available
+    image: "/mp.png", // Using existing image from the project
+    description: [
+      "Fullstack Web App to buy/sell/trade items and services in a P2P manner. Designed as a horizontal commerce app between users, built exclusively with Ruby on Rails framework using Hotwire view rendering system.",
+      "Tech Stack: Ruby on Rails, Hotwire, Turbo, Stimulus, Tailwind CSS",
+      "Features: P2P marketplace, user authentication, real-time updates with Turbo"
     ],
   },
 ];
